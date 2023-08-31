@@ -4,9 +4,10 @@ import photo3 from '../Components/pics/alex.jpeg'
 function Testimonial(){
     return(
         <>
-        <hr style={{height:"2px",borderWidth:"1px",color:"gray",backgroundColor:"gray"}}></hr>
+        
         
         <section className="testimonial text-light" id="testimonial">
+          <br></br>
     <p style={{color: "rgb(255, 94, 0)", fontWeight: "750", fontSize: "29px", marginLeft: "55px"}}>Testimonials</p>
     <p style={{color: "white", fontWeight: "750", fontSize: "25px", marginLeft: "55px"}}>What They Say</p>
 
@@ -21,15 +22,37 @@ function Testimonial(){
             <div className="card">
               <div className="card-body px-4 py-5">
              
-                <div id="carouselDarkVariant" className="carousel slide carousel-dark" data-mdb-ride="carousel">
+                {/* <div id="carouselDarkVariant" className="carousel slide carousel-dark" data-mdb-ride="carousel">
                  
                   <div className="carousel-indicators mb-0">
                     <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="0" className="active"
                       aria-current="true" aria-label="Slide 1"></button>
                     <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="1" aria-label="Slide 1"></button>
                     <button data-mdb-target="#carouselDarkVariant" data-mdb-slide-to="2" aria-label="Slide 1"></button>
-                  </div>
-
+                  </div> */}
+                  <div id="carouselDarkVariant" class="carousel slide carousel-dark" data-mdb-ride="carousel">
+  <div class="carousel-indicators mb-0">
+    <button
+      type="button"
+      data-mdb-target="#carouselDarkVariant"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselDarkVariant"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselDarkVariant"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
                   
                   <div className="carousel-inner pb-5">
                     
@@ -75,7 +98,7 @@ function Testimonial(){
                     </div>
 
                   
-                    <div className="carousel-item active">
+                    <div className="carousel-item ">
                       <div className="row d-flex justify-content-center">
                         <div className="col-lg-10 col-xl-8">
                           <div className="row">

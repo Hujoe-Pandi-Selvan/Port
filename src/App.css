@@ -16,15 +16,23 @@
   
 }
 /* https://images.unsplash.com/photo-1636956026491-86a9da7001c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=700&q=60 */
+/* https://cdn.pixabay.com/photo/2019/12/17/05/53/security-4700815_1280.jpg */
+/* https://cdn.pixabay.com/photo/2018/02/06/22/43/painting-3135875_1280.jpg */
 .bannersection{
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://cdn.pixabay.com/photo/2019/12/17/05/53/security-4700815_1280.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url("https://images.unsplash.com/photo-1634660476928-63015cdbc6d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+ 
+ }
+ #projects{
+  background-color:rgb(47, 9, 92) !important;
   background-size: cover;
   background-position: center;
 
   background-attachment: fixed;
-  
- 
  }
 
 .img-container{
@@ -32,11 +40,8 @@
   
  }
 .hujoe{
-   border-radius: 20%;
-   border-top-right-radius: 25%;
-   border-top-left-radius: 30%;
-   border-bottom-left-radius: 20%;
-   border-bottom-right-radius: 70%;
+   border-radius: 50%;
+  
     
    margin-top: 100px;
    margin-bottom: 0px;
@@ -76,9 +81,9 @@ body{
   background-color: rgb(0, 0, 0)!important;
 }
 #projects{
-  margin: 5px;
-  padding: 9px;
-  margin-top: 60px;
+  
+  
+  /* margin-top: 60px; */
   padding-bottom: 40px;
 }
 #services{
@@ -115,7 +120,10 @@ body{
   font-size: 30px;
   color:gray;
 }
-
+.icon6{
+  font-size: 30px;
+  color:gray;
+}
 .icon:hover{
   color:lightgreen
 }
@@ -130,6 +138,12 @@ body{
 
 .icon4:hover{
   color:white;
+}
+.icon5:hover{
+  color:#0077b5;
+}
+.icon6:hover{
+  color:#535a5d;
 }
 .text2{
   background-color: gray;
@@ -146,14 +160,18 @@ body{
 }
 .skills{
   background-color:white;
+  
 }
 .card-title{
  font-weight: 800;
- color: rgba(255, 157, 0, 0.994)!important;
+ color:  rgb(33,26,88)
+ !important;
 
 
 }
-
+.card-body{
+  color: #000000 !important;
+}
 .card-body a{
  font-weight: 650!important;
 }
@@ -320,7 +338,7 @@ font-weight: bold;
 }
  .famesp{
     margin-left: 2px;
-    color: #50a3e7;
+    color: rgb(188, 179, 246);
     transform: translateX(0);
     opacity: 1;
 

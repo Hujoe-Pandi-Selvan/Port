@@ -25,10 +25,10 @@ function Skills() {
     <>
 
 
-      <section className="skills" id="skills">
-
-        <p style={{ color: "rgb(255, 94, 0)", fontWeight: "750", fontSize: "29px", marginLeft: "55px" }}>What I Do</p>
-        <p style={{ fontWeight: "750", fontSize: "25px", marginLeft: "55px", color: "black", textTransform: "uppercase" }}>
+      <section className="skills" id="skills" >
+        <br></br>
+        <div><p style={{ color: "black", fontWeight: "750", fontSize: "29px", marginLeft: "55px" }}>What I Do</p></div>
+        <p style={{ fontWeight: "750", fontSize: "25px", marginLeft: "55px", color: "#5345B4", textTransform: "uppercase" }}>
           skills</p>
 
 
@@ -38,7 +38,7 @@ function Skills() {
 
             <div className="container">
               <h2 className="text first-text" style={{ color: "black", marginRight: "2px" }}>I'm am Proficient in
-                <span className="ml-2" style={{ fontWeight: "bold", color: "#0096FF" , marginLeft:"10px"}} >{data}
+                <span className="ml-2" style={{ fontWeight: "bold", color: "#ff8c00" , marginLeft:"10px"}} >{data}
                 </span>
                 <span>
                   <Cursor cursorColor='black' />
@@ -51,7 +51,7 @@ function Skills() {
                 <span className="famesp ">MAKING THINGS FUN.</span>
               </button>
             </div>
-            <div className="skillsparagh" style={{ backgroundColor: "rgba(232, 221, 221, 0.824)", padding: "15px", marginTop: "20px", color: "rgb(0, 0, 0)", fontFamily: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sansSerif", borderTopRightRadius: " 20%", borderBottomLeftRadius: " 15%" ,fontSize:"15px",fontWeight: "500"}}>
+            <div className="skillsparagh" style={{ backgroundColor: "rgba(230,215,255, 0.424)", padding: "15px", marginTop: "20px", color: "rgb(0, 0, 0)", fontFamily: "'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sansSerif", borderTopRightRadius: " 17%", borderBottomLeftRadius: " 15%" ,fontSize:"15px",fontWeight: "500"}}>
               I am <span data-aos="zoom-in" style={{ fontSize: "18px", fontWeight: "500" }}>Hujoe</span> a skilled and versatile individual with a strong foundation in web development and programming. Being Proficient in <span style={{ fontSize: "18px", fontWeight: "500" }}>HTML, CSS and Javascript</span> I excel at creating visually appealing and user-friendly websites that engage and captivate audiences. My expertise extends to version control using <span style={{ fontSize: "18px", fontWeight: "500" }}>GitHub</span>, allowing for efficient collaboration and code management. With a deep understanding of<span style={{ fontSize: "18px", fontWeight: "500" }}> Java, Python, C, Noje.js, React.js and MongoDB</span>, I possess the capability to develop robust and dynamic applications that cater to various needs. Additionally I am also proficient in frameworks such as <span style={{ fontSize: "18px", fontWeight: "500" }}>Bootsrap5 and Tailwind</span>. Good in cybersecurity and have experience with the <span style={{ fontSize: "18px", fontWeight: "500" }}>Splunk</span> platform! & <span style={{ fontSize: "18px", fontWeight: "500" }}>Linux</span>
             </div>
             <br></br>

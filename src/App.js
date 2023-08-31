@@ -15,8 +15,9 @@ function App() {
    <Banner/>
    <Skills/>
    <section class="Projects" id="projects">
-   <p style={{color: "rgb(255, 94, 0)", fontWeight: "750", fontSize: "29px", marginLeft: "55px"}}>Portfolio</p>
-    <p style={{color: "white", fontWeight: "750", fontSize:" 25px", marginLeft: "55px "}}>Projects I Have Done</p>
+    <br></br>
+   <p style={{color: "white", fontWeight: "750", fontSize: "29px", marginLeft: "55px"}}>Portfolio</p>
+    <p style={{color: "rgb(235,131,0)", fontWeight: "750", fontSize:" 25px", marginLeft: "55px "}}>Projects I Have Done</p>
    <div className="cards  d-flex flex-wrap justify-content-center ">
    <ProjectCard title="Timber Tales" image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS506be18ZpFkmVpHlGsg5jsGcFmbIPyDlqKv3OyqmbNaUX6Hjkn3_b-zNDLHzE9IxSKNI&usqp=CAU" projecttext="Project Developing a Game Utilizing A* Search, DFS, BFS Algorithms and OOPS concept. In
             this game, a lumberjack seeks the shortest route to fell trees and transport the wood to houses, while
