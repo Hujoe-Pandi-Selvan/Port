@@ -1,5 +1,6 @@
 import './App.css';
 import ProjectCard from './Components/ProjectCard';
+import WebsiteProjects from './Components/WebsiteProjects';
 import Navbar from './Components/Nabar';
 import Banner from './Components/Banner';
 import Skills from './Components/Skills';
@@ -32,8 +33,8 @@ function App() {
     projecttext="Working with professor Stephan Beard on this project to hack open a mobile device through the voltage 
     change observed by the connected charger. For more info click the link" link="https://www.usenix.org/conference/usenixsecurity21/presentation/cronin"/>
    <ProjectCard title="Astromech Project" image="https://rukminim2.flixcart.com/image/850/1000/action-figure/a/n/q/star-wars-interactive-r2d2-astromech-droid-robot-hasbro-original-imaeqqvpcabmg97t.jpeg?q=90" projecttext="helped with brainstorming ideas while building the droid" link="https://www.calpolyrobotics.org/astromech#:~:text=Astromech%20—%20Cal%20Poly%20Robotics%20Club&text=The%20Astromech%20project%20is%20focused,to%20make%20a%20cool%20robot!"/>
-   <ProjectCard title="Tour Website" image="https://images.unsplash.com/photo-1465778893808-9b3d1b443be4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1475&q=80" projecttext=" Created a Tour wesite using HTML, CSS, Javascript, React.js, Node.js"link="#"/>
-   <ProjectCard title="Ecommerce Website" image={luffy}projecttext="Created a Ecommerce wesite using HTML, CSS, Javascript, React.js, Node.js for my own brand called Animex"link="#"/>
+   <WebsiteProjects title="Tour Website" image="https://images.unsplash.com/photo-1465778893808-9b3d1b443be4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1475&q=80" projecttext=" Created a Tour wesite using HTML, CSS, Javascript, React.js, Node.js"link="https://github.com/Hujoe-Pandi-Selvan/Tour-Website" web="https://hujoe-pandi-selvan.github.io/Tour-Website/"/>
+   <ProjectCard title="Ecommerce Website-(WORK IN PROGRESS)" image={luffy}projecttext="Created a Ecommerce wesite using HTML, CSS, Javascript, React.js, Node.js for my own brand called Animex"link="#"/>
    
    </div>
    </section>

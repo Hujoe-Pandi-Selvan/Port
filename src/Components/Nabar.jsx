@@ -1,6 +1,8 @@
 
 import '../App.css';
 import Logo from '../Components/pics/logoname2.jpg';
+import Logo2 from '../Components/pics/1.png'
+import Logo3 from '../Components/pics/2.png'
 function Navbar(){
     return(
         <>
@@ -8,7 +10,7 @@ function Navbar(){
     <nav className="navbar navbar-dark bg-transparent fixed-top  ">
       <div className="container-fluid">
 
-        <img src={Logo} style={{height: "90px", width: "90px"}} className="logo"/>
+        <img src={Logo3} style={{height: "90px", width: "90px"}} className="logo"/>
         <button className="navbar-toggler bg-dark shadow" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
