@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.30e7921d.css",
-    "main.js": "/Portfolio/static/js/main.79ae9a2f.js",
+    "main.css": "/Portfolio/static/css/main.53b8ccb9.css",
+    "main.js": "/Portfolio/static/js/main.1e2a9f35.js",
     "static/js/787.9e89b8c0.chunk.js": "/Portfolio/static/js/787.9e89b8c0.chunk.js",
+    "static/media/Subject 2.png": "/Portfolio/static/media/Subject 2.c6111f938ca0bf3afbc0.png",
     "static/media/resumepic.jpg": "/Portfolio/static/media/resumepic.c75f5e6fcc870d34662c.jpg",
     "static/media/Resume (Hujoe Pandi Selvan)  copy.pdf": "/Portfolio/static/media/Resume (Hujoe Pandi Selvan)  copy.c6718fd63f2e630cf386.pdf",
     "static/media/Jordan.jpeg": "/Portfolio/static/media/Jordan.f2b74df5d07263c746ff.jpeg",
@@ -12,12 +13,12 @@
     "static/media/Splunk-Logo.jpg": "/Portfolio/static/media/Splunk-Logo.dad284dea027b9793d6f.jpg",
     "static/media/1.png": "/Portfolio/static/media/1.26286635e2521f2026f2.png",
     "index.html": "/Portfolio/index.html",
-    "main.30e7921d.css.map": "/Portfolio/static/css/main.30e7921d.css.map",
-    "main.79ae9a2f.js.map": "/Portfolio/static/js/main.79ae9a2f.js.map",
+    "main.53b8ccb9.css.map": "/Portfolio/static/css/main.53b8ccb9.css.map",
+    "main.1e2a9f35.js.map": "/Portfolio/static/js/main.1e2a9f35.js.map",
     "787.9e89b8c0.chunk.js.map": "/Portfolio/static/js/787.9e89b8c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30e7921d.css",
-    "static/js/main.79ae9a2f.js"
+    "static/css/main.53b8ccb9.css",
+    "static/js/main.1e2a9f35.js"
   ]
 }
