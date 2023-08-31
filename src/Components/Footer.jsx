@@ -5,12 +5,12 @@ function Footer(){
         <section class="Footer" id="Footer">
 
     <div class="container d-flex justify-content-center">
-      <a class="m-3 icon4"href="https://github.com/orgs/Hujoe-Pandi-Selvan/repositories"><i class="bi bi-github"></i></a>
-      <a class="m-3 icon5"href="https://www.linkedin.com/in/hujoe-pandi-selvan-5509a125a/"><i class="bi bi-linkedin"></i></a>
-      <a class="m-3 icon6"href="tel:+8053169809"><i class="bi bi-telephone"></i></a>
-      <a class="m-3 icon" href="https://wa.me/+18053169809 "><i class="bi bi-whatsapp"></i></a>
-      <a class="m-3 icon2"href="https://www.facebook.com/hujoe.hujoe.9"><i class="bi bi-facebook"></i></a>
-      <a class="m-3 icon3"href="https://www.instagram.com/__hujoe__/"><i class="bi bi-instagram"></i></a>
+      <a class="m-3 icon4"href="https://github.com/orgs/Hujoe-Pandi-Selvan/repositories"target="_blank"><i class="bi bi-github"></i></a>
+      <a class="m-3 icon5"href="https://www.linkedin.com/in/hujoe-pandi-selvan-5509a125a/"target="_blank"><i class="bi bi-linkedin"></i></a>
+      <a class="m-3 icon6"href="tel:+8053169809"target="_blank"><i class="bi bi-telephone"></i></a>
+      <a class="m-3 icon" href="https://wa.me/+18053169809 "target="_blank"><i class="bi bi-whatsapp"></i></a>
+      <a class="m-3 icon2"href="https://www.facebook.com/hujoe.hujoe.9"target="_blank"><i class="bi bi-facebook"></i></a>
+      <a class="m-3 icon3"href="https://www.instagram.com/__hujoe__/"target="_blank"><i class="bi bi-instagram"></i></a>
       
     </div>
     <div class="text2">
