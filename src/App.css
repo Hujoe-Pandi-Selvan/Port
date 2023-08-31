@@ -32,7 +32,12 @@
   
  }
 .hujoe{
-   border-radius: 25%;
+   border-radius: 20%;
+   border-top-right-radius: 25%;
+   border-top-left-radius: 30%;
+   border-bottom-left-radius: 20%;
+   border-bottom-right-radius: 70%;
+    
    margin-top: 100px;
    margin-bottom: 0px;
 }
@@ -43,10 +48,10 @@
 
 #hero  a{
  text-decoration: none;
- color:rgb(0, 0, 0);
+ color:rgb(255, 255, 255) !important;
  font-family: 'Open Sans',sans-serif;
  padding:10px;
- background-color: rgba(255, 213, 0, 0.83);
+ background-color: rgba(0, 0, 0, 0.83);
  box-shadow: 0px 0px 20px rgb(155, 156, 157);
  border-radius: 12px;
  
@@ -56,8 +61,10 @@
 .abutton1{
   margin-top: 30px;
 }
+
 .abutton:hover{
-  color:rgba(60, 57, 57, 0.771) !important;
+  color:rgb(44, 42, 42) !important;
+  box-shadow: 0px 0px 40px rgb(254, 254, 255)!important;
   
 }
 .logo{
