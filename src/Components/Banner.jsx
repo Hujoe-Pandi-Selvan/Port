@@ -10,8 +10,8 @@ function Banner(){
        <section className="bannersection">
     <div className=" container d-flex justify-content-around flex-wrap-reverse align-items-center  p-4">
       <div id="hero">
-        <span className="pb-3 text-light"style={{color: "white", fontSize:"25px"}}>HI THERE! I'M</span> <br></br><span className="pb-3 text-light" style={{color: "white", fontWeight:"800",fontSize:"40px",marginTop:"-40px"}}><span style={{color:"black"}}>HUJOE</span> PANDI SELVAN</span>
-        <div className="abutton1"><a href="https://drive.google.com/file/d/1O-mTcgK4Og85fLwf9FtBG7TiGmh322RP/view?usp=sharing"  rel="noreferrer" id="download_btn" target="_blank"  className="btn btn-dark text-black abutton pb-2" style={{ fontWeight:"800"}}>View Resume</a></div>
+        <span className="pb-3 text-light"style={{color: "white", fontSize:"25px"}}>HI THERE! I'M</span> <br></br><span className="pb-3 text-light" style={{color: "white", fontWeight:"800",fontSize:"40px",marginTop:"-40px"}}><span style={{color:"orange"}}>HUJOE</span> PANDI SELVAN</span>
+        <div className="abutton1"><a href="https://drive.google.com/file/d/1vPIyro-zuED7krc0VbCdLPnX_xVWNpsp/view?usp=sharing"  rel="noreferrer" id="download_btn" target="_blank"  className="btn btn-dark text-black abutton pb-2" style={{ fontWeight:"800"}}>View Resume</a></div>
       </div>
 
       <div className="img-container">
